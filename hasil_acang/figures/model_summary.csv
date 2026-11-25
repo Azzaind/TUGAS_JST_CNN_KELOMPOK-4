@@ -1,0 +1,24 @@
+﻿No,Bagian,Nama lapisan,Tipe,Ukuran output,Jumlah parameter,Dilatih
+1,Input,input_gambar,InputLayer,224×224×3,0,-
+2,VGG16 (dibekukan),block1_conv1,Conv2D,224×224×64,1792,Tidak
+3,VGG16 (dibekukan),block1_conv2,Conv2D,224×224×64,36928,Tidak
+4,VGG16 (dibekukan),block1_pool,MaxPooling2D,112×112×64,0,Tidak
+5,VGG16 (dibekukan),block2_conv1,Conv2D,112×112×128,73856,Tidak
+6,VGG16 (dibekukan),block2_conv2,Conv2D,112×112×128,147584,Tidak
+7,VGG16 (dibekukan),block2_pool,MaxPooling2D,56×56×128,0,Tidak
+8,VGG16 (dibekukan),block3_conv1,Conv2D,56×56×256,295168,Tidak
+9,VGG16 (dibekukan),block3_conv2,Conv2D,56×56×256,590080,Tidak
+10,VGG16 (dibekukan),block3_conv3,Conv2D,56×56×256,590080,Tidak
+11,VGG16 (dibekukan),block3_pool,MaxPooling2D,28×28×256,0,Tidak
+12,VGG16 (dibekukan),block4_conv1,Conv2D,28×28×512,1180160,Tidak
+13,VGG16 (dibekukan),block4_conv2,Conv2D,28×28×512,2359808,Tidak
+14,VGG16 (dibekukan),block4_conv3,Conv2D,28×28×512,2359808,Tidak
+15,VGG16 (dibekukan),block4_pool,MaxPooling2D,14×14×512,0,Tidak
+16,VGG16 (dibekukan),block5_conv1,Conv2D,14×14×512,2359808,Tidak
+17,VGG16 (dibekukan),block5_conv2,Conv2D,14×14×512,2359808,Tidak
+18,VGG16 (dibekukan),block5_conv3,Conv2D,14×14×512,2359808,Tidak
+19,VGG16 (dibekukan),block5_pool,MaxPooling2D,7×7×512,0,Tidak
+20,Lapisan tambahan,global_avg_pool,GlobalAveragePooling2D,512,0,-
+21,Lapisan tambahan,dense_256,Dense,256,131328,Ya
+22,Lapisan tambahan,dropout_0_5,Dropout,256,0,-
+23,Lapisan tambahan,softmax_6_kelas,Dense,6,1542,Ya

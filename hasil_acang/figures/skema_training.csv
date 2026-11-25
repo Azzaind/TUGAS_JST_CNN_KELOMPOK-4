@@ -1,0 +1,13 @@
+﻿Komponen,Nilai
+Optimizer,Adam
+Learning rate tahap 1,1e-4
+Learning rate fine tuning,1e-5 (blok 5 dibuka)
+Batch size,32
+Epoch maksimum tahap 1,60
+Epoch berjalan tahap 1,39
+Epoch berjalan tahap 2,25
+Loss function,Categorical crossentropy
+Metrik,Accuracy
+Class weight,"Balanced (trash = 3,07)"
+Callback,"EarlyStopping (patience 5), ReduceLROnPlateau, ModelCheckpoint"
+Model terpilih,tahap 2 (fine tuning blok 5)

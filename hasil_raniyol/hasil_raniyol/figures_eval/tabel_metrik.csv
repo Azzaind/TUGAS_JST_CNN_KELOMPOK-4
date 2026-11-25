@@ -1,0 +1,7 @@
+Kelas,Precision,Recall,F1-score,Jumlah data
+Kardus,0.903,0.933,0.918,60
+Kaca,0.819,0.776,0.797,76
+Logam,0.734,0.935,0.823,62
+Kertas,0.94,0.876,0.907,89
+Plastik,0.919,0.781,0.844,73
+Residu,0.682,0.75,0.714,20

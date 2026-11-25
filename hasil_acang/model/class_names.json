@@ -1,0 +1,18 @@
+{
+ "classes": [
+  "cardboard",
+  "glass",
+  "metal",
+  "paper",
+  "plastic",
+  "trash"
+ ],
+ "label_id": {
+  "cardboard": "Kardus",
+  "glass": "Kaca",
+  "metal": "Logam",
+  "paper": "Kertas",
+  "plastic": "Plastik",
+  "trash": "Residu"
+ }
+}
